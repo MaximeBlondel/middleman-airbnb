@@ -1,0 +1,72 @@
+
+element.style {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 100%), url(http://kitt.lewagon.com/placeholder/cities/paris);
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    height: 85vh;
+    background-size: cover !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+.banner p {
+    font-size: 25px;
+    color: white;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+p {
+    margin: 0 0 12.5px;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Varela", "Helvetica", "sans-serif";
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0,0,0,0.2);
+}
